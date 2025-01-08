@@ -9,7 +9,6 @@ class Solution:
                 prefix = words[i]
                 target = words[j]
                 
-                # Check if 'prefix' is both a prefix and suffix of 'target'
                 if target.startswith(prefix) and target.endswith(prefix):
                     count += 1
                     
