@@ -4,7 +4,7 @@ class Solution:
 
         for s in strs:
             if len(s) < min_length:
-                min_length = len(s)
+               min_length = len(s)
         
         i = 0
         while i < min_length:
