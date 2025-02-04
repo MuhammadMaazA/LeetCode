@@ -11,5 +11,5 @@ class Solution:
                 count -= 1
         return candidate
     
-    # Time: O(n) because we traverse teh array only once
+    # Time: O(n) because we traverse the array only once
     # Space: O(1) because we use only two variables candidate and count
