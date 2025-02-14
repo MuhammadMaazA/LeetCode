@@ -29,5 +29,5 @@ class Solution:
             
         return res
 
-        # Time: O(n^2)
+        # Time: O(n^2) where n is the length of the input list
         # Space: O(1) excluding output storage
