@@ -17,10 +17,8 @@ class Solution:
                 r -= 1
 
         return max_area
-    
     # Time: O(n) because we are iterating through the list once
-    # Space: O(1) because we are not using any extra space
-
+    # Space: O(1) because we are not using any extra space 
 
 
 
