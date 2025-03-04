@@ -17,3 +17,6 @@ class Solution:
             else:
                 stack.append(int(t))
         return stack[0]
+    
+    # Time complexity: O(N), where N is the length of tokens
+    # Space complexity: O(N), where N is the space used by the stack
