@@ -6,7 +6,7 @@ class Solution:
 
         for i, temp in enumerate(temperatures):
             while stack and temp > temperatures[stack[-1]]:
-                last = stack.pop()
+                prev_index = stack.pop()
                 answer[prev_index] = i - prev_index
             stack.append(i)
         
@@ -15,4 +15,3 @@ class Solution:
     # Time complexity: O(N), where N is the length of temperatures
     # Space complexity: O(N), where N is the space used by the stack
 
-    
