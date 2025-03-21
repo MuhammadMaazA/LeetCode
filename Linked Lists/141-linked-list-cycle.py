@@ -18,4 +18,4 @@ class Solution:
         return False
     
     # Time: O(n) each pointer goes through n nodes in worst case
-    # Space: O(1) we only use two pointers regardless of list size
+    # Space: O(1) we only use two pointers regardless of list size 
