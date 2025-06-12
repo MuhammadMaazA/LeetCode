@@ -12,7 +12,7 @@ class Solution:
         h = {}
         n = len(nums)
         for i, x in enumerate(nums):
-            y = target - x:
+            y = target - x
             if y in h:
                 return [h[y], i]
             else:
